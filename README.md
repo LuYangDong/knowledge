@@ -4,3 +4,5 @@
 #3、VUE
 #4、angular
 #5、React
+#6、fis3
+#7、avalonjs
