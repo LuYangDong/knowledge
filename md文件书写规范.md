@@ -22,6 +22,10 @@ www.baidu.com<br>
  每行行首加两个TAB键，例如<br>
      北京<br>
      您好<br>
+     （没看到什么效果）
 # 4.3文字高亮<br>
- Thank `You` . Please `Call` Me `Coder`
+ Thank `You` . Please `Call` Me `Coder`<br>
+# 4.4文字超链接<br>
+<p>给一段文字加入超链接的格式是这样的 [ 要显示的文字 ]( 链接的地址 )。比如：</p>
+<p>[我的博客](http://blog.csdn.net/weixin_40133121)</p>
 
