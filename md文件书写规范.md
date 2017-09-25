@@ -37,12 +37,13 @@ www.baidu.com<br>
  * 二级圆点<br>
   * 三级圆点<br>
 # 5.缩进<br>
-> 数据结构<br>  
->> 树<br>  
->>> 二叉树<br>  
->>>> 平衡二叉树<br>  
->>>>> 满二叉树<br> 
-<p>![baidu](http://www.baidu.com/img/bdlogo.gif)</p>
+>数据结构<br>  
+>>树<br>  
+>>>二叉树<br>  
+>>>>平衡二叉树<br>  
+>>>>>满二叉树<br> 
+<p>! [baidu](http://www.baidu.com/img/bdlogo.gif)</p>
+<a href="http://www.baidu.com">百度</a>
 
 
 
