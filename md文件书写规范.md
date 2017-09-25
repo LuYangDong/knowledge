@@ -27,5 +27,12 @@ www.baidu.com<br>
  Thank `You` . Please `Call` Me `Coder`<br>
 # 4.4文字超链接<br>
 <p>给一段文字加入超链接的格式是这样的 [ 要显示的文字 ]( 链接的地址 )。比如：</p>
-<p>[我的博客](http://blog.csdn.net/weixin_40133121)</p>
+<p>[我的博客](http://blog.csdn.net/weixin_40133121 "悬停显示")</p>
+# 4.5斜体
+<p>可以使用* 或 _ 包围文字，例如*Hello World*</p>
+# 4.6粗体
+<p>可以使用两个* 或 _ 包围文字，例如**Hello World**</p>
+  你是
+  谁
+
 
