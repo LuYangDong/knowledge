@@ -14,3 +14,5 @@
 
 ## 7、avalonjs<br>
  
+## 8、框架
+<p>jQuery.glide.js (http://www.cnblogs.com/mfc-itblog/p/5250347.html)</p>
