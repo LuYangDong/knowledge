@@ -15,4 +15,5 @@
 ## 7、avalonjs<br>
  
 ## 8、框架
-<p>jQuery.glide.js (http://www.cnblogs.com/mfc-itblog/p/5250347.html)</p>
+<p>1.jQuery.glide.js (http://www.cnblogs.com/mfc-itblog/p/5250347.html)</p>
+<p>2.swriper (http://www.swiper.com.cn/)<small>Swiper常用于移动端网站的内容触摸滑动</small></p>
