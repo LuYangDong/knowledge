@@ -11,6 +11,8 @@ anjular4.0
 ## 5、React<br>
 
 ## 6、fis3<br>
+运行fis3:npm run fis3<br>
+打包或发布：fis3 release -d ./output<br>
 
 ## 7、avalonjs<br>
 ### 7.1avalon 单页面程序 <br>
