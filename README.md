@@ -23,3 +23,7 @@ anjular4.0
 <p>1.jQuery.glide.js (http://www.cnblogs.com/mfc-itblog/p/5250347.html)</p>
 <p>2.swriper (http://www.swiper.com.cn/)</p>
 <div style="font:20px/30px '宋体';">Swiper常用于移动端网站的内容触摸滑动</div>
+<p>3.动画工具：Velocity.js</p>
+<div>Velocity专为动画而设计 ，简单易用，功能强大，广泛地被一些主流公司所使用（包括Tumblr, Microsoft and WhatsApp）。并且Velocity 是基于MIT许可协议的开源库。<br>
+
+Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能独立地使用，所以对你来说应该很容易学。由于jQuery使用普遍，我也将向你展示Velocity如何同它协作。</div>
