@@ -28,5 +28,9 @@ anjular4.0
 
 Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能独立地使用，所以对你来说应该很容易学。由于jQuery使用普遍，我也将向你展示Velocity如何同它协作。</div>
 <a href="http://velocityjs.org/">文档</a>查看<a href="https://codepen.io/collection/tIjGb/">这里</a>的velocity 示例
-## 9、关于Codeopen与jsFiddle<br><a href=“http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/”>明天补</a>
-<div>jsFiddle基本上就是纯碎的demo展示与分享，其强调实现，因此有更多可供选择的JS框架（包括各个版本），如下截图：</div>
+## 9、关于Codeopen(you can get, not only share!)与jsFiddle<br>
+<a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/">参考网址</a>
+<p>jsFiddle基本上就是纯碎的demo展示与分享，其强调实现，因此有更多可供选择的JS框架（包括各个版本），如下截图：</p>
+<p>CodePen只提供最新版本的jQuery, MooTools, Prototype框架，且默认不使用任何库</p>
+<p>jsFiddle写代码的效果要手动点击Run才能看到，CodePen所见即所得。</p>
+<p>jsFiddle的账户系统（登录注册等）属于自己，CodePen似乎需要的是GitHub账号。</p>
