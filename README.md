@@ -34,3 +34,4 @@ Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能
 <p>CodePen只提供最新版本的jQuery, MooTools, Prototype框架，且默认不使用任何库</p>
 <p>jsFiddle写代码的效果要手动点击Run才能看到，CodePen所见即所得。</p>
 <p>jsFiddle的账户系统（登录注册等）属于自己，CodePen似乎需要的是GitHub账号。</p>
+<h4>顺路记下：君若有需，当取自需；君若无需，亦知其需！</h4>
