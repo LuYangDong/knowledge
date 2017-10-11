@@ -5,7 +5,7 @@
 ## 2、快速搞定es6新特性<br>
 
 ## 3、VUE<br>
-### VUE2.0
+### VUE2.0 <a href="http://larabase.com/collection/2/post/110">开发文档</a>
 ## 4、angular<br>
 anjular4.0
 ## 5、React<br>
