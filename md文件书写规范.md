@@ -44,6 +44,7 @@ www.baidu.com<br>
 >>>>>满二叉树<br> 
 <p>! [baidu](http://www.baidu.com/img/bdlogo.gif)</p>
 <a href="http://www.baidu.com">百度</a>
+<p>html标签能不能正常使用</p>
 <h1>标</h1>
 <h6>签</h6> 
 <p>能<p/>
