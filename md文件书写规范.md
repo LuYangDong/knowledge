@@ -51,5 +51,6 @@ www.baidu.com<br>
 <ul><li>不</li></ul>
 <ol><li>能</li></ol> 
 <i>用</i>
-![Image text](https://github.com/LuYangDong/knowledge/blob/master/images/test.jpg)
-<img src="https://github.com/LuYangDong/knowledge/blob/master/images/test.jpg">
+<div><p>怎么在MD文件里面插入图片?</p>
+<img src="https://github.com/LuYangDong/knowledge/blob/master/images/test.jpg" width="100px" height="100px">
+ </div>
