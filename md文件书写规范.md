@@ -51,5 +51,5 @@ www.baidu.com<br>
 <ul><li>不</li></ul>
 <ol><li>能</li></ol> 
 <i>用</i>
-![Image text](https://github.com/luyangdong/knowledge/imges/test.jpg)
+![Image text](https://github.com/LuYangDong/knowledge/blob/master/images/test.jpg)
 
