@@ -52,4 +52,4 @@ www.baidu.com<br>
 <ol><li>能</li></ol> 
 <i>用</i>
 ![Image text](https://github.com/LuYangDong/knowledge/blob/master/images/test.jpg)
-
+<img src="https://github.com/LuYangDong/knowledge/blob/master/images/test.jpg">
