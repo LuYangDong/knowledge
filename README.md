@@ -13,6 +13,7 @@ anjular4.0
 ## 6、fis3<br>
 运行fis3:npm run fis3<br>
 打包或发布：fis3 release -d ./output<br>
+<p>fis3可以实现html、CSS的插入，图片精灵。</p>
 
 ## 7、avalonjs<br>
 ### 7.1avalon 单页面程序 <br>
