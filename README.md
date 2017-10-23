@@ -36,7 +36,8 @@ Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能
 <p>jsFiddle写代码的效果要手动点击Run才能看到，CodePen所见即所得。</p>
 <p>jsFiddle的账户系统（登录注册等）属于自己，CodePen似乎需要的是GitHub账号。</p>
 <h4>顺路记下：君若有需，当取自需；君若无需，亦知其需！</h4>
-## 10、superSlide<br>
+<h2>10、superSlide<br></h2>
 <p><a href="http://www.superslide2.com/">API文档</a></p>
-## 11、velocity.js+shutter.js实现百叶窗效果<br>
+<h2> 11、velocity.js+shutter.js实现百叶窗效果</h2>
 <p><a href="http://www.lanrenzhijia.com/banner/4550.html">演示</a></p>
+<h3>fullpage.js全屏插件</h3>
