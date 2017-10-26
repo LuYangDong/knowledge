@@ -41,5 +41,6 @@ Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能
 <h2> 11、velocity.js+shutter.js实现百叶窗效果</h2>
 <p><a href="http://www.lanrenzhijia.com/banner/4550.html">演示</a></p>
 <h3>12、fullpage.js全屏插件</h3>
-<h3>关于github</h3>
+<h3>13、关于github</h3>
 <p>一般建立分支提交，然后再合并分支到主分支，再删除分支</p>
+
