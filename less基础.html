@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+    
+    pre{font-size:16px;line-height:1.5; font-family: "Microsoft YaHei;"}
+
+</style>
+</head>
+
+<body>
+<h1> LESS 基础</h1>
+<h3>一、什么是 LESS </h3>
+<p>LESS是一种动态语言，属于CSS预处理语言的一种</p>
+
+<h3>二、基本用法</h3>
+<h4>1、注释</h4>
+<pre>
+SASS共有两种注释风格。
+<mark>标准</mark>的CSS注释 /* comment */ ，会保留到编译后的文件。
+<mark>单行</mark>注释 // comment，只保留在SASS源文件中，<mark>编译后被省略</mark>。
+</pre>
+<h4>2、import 导入样式</h4>
+<pre>
+引入.css文件 同于css的import命令
+    @import "reset.css";
+编译后：
+    @import url(reset.css);
+
+引入 .less 文件
+<mark>可以省略扩展名</mark> 
+    @import "reset"
+编译后：
+	<mark>导入的文件会与当前文件内容合并</mark>
+</pre>
+<h4>3、变量</h4>
+<pre>
+1)<mark>变量以@开头</mark>,变量名与变量值之间用<mark>【冒号】</mark>分隔
+</mark>。
+  @color: #4D926F;
+  #header {
+    color: @color;
+  }
+  编译后：
+  #header {
+    color: #4D926F;
+  }
+2)如果变量需要镶嵌在字符串之中，就必须需要写在<mark>@{}</mark>之中。
+　　@side : left;
+　　.rounded {
+　　　　border-@{side}-radius: 5px;
+　　}
+    
+
+    @images: "../img";
+    body {
+      color: #444;
+      background: url("@{images}/white-sand.png");
+    }
+
+</pre>
+<h4>4、嵌套</h4>
+<pre>
+1）选择器嵌套
+    #header {
+      h1 {
+        font-size: 26px;
+        font-weight: bold;
+      }
+      p { font-size: 12px;
+        a { text-decoration: none;
+          &:hover { border-width: 1px }
+        }
+      }
+    }
+编译后：
+    #header h1 {
+      font-size: 26px;
+      font-weight: bold;
+    }
+    #header p {
+      font-size: 12px;
+    }
+    #header p a {
+      text-decoration: none;
+    }
+    #header p a:hover {
+      border-width: 1px;
+    }
+3）在嵌套的代码块内，可以使用<mark>&引用父元素</mark>。比如a:hover伪类，可以写成：
+　　a {
+　　　　&:hover { color: #ffb3ff; }
+　　}
+</pre>
+<h4>5、混合</h4>
+<pre>
+1）定义一些通用的属性集为一个class，然后在另一个class中去调用这些属性
+    .bordered {
+      border-top: dotted 1px black;
+      border-bottom: solid 2px black;
+    }
+    调用：
+    #menu a {
+      color: #111;
+      <mark>.bordered;</mark>
+    }
+    
+<strong>带参数混合</strong>
+	.border-radius (@radius) {
+      border-radius: @radius;
+      -moz-border-radius: @radius;
+      -webkit-border-radius: @radius;
+    }
+    调用：
+    #header {
+  		.border-radius(4px);
+	}
+<strong>给参数设置默认值</strong>
+    .rounded-corners (@radius: 5px) {
+      border-radius: @radius;
+      -webkit-border-radius: @radius;
+      -moz-border-radius: @radius;
+    }
+    调用：
+    #header {
+      .rounded-corners;
+    }
+    
+    编译后：
+    #header {
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+    }
+    编译后：
+    #footer {
+      .rounded-corners(10px);
+    }
+    #footer {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+ <strong>@arguments 变量</strong>   
+    .box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
+      box-shadow: @arguments;
+      -moz-box-shadow: @arguments;
+      -webkit-box-shadow: @arguments;
+    }
+    .box-shadow(2px, 5px);
+</pre>
+<pre>
+  <h4>6.Extend</h4>  
+  extend伪类来实现样式的继承使用
+   LESS代码
+    .public {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav ul {
+        &:extend(.public);
+        list-style: none;
+    }
+    <mark>等同于：</mark>
+    nav ul:extend(.public){
+      list-style:none;
+  }
+
+    ->编译后
+    .public, nav ul {
+        width: 100px;
+        height: 100px;
+    }
+
+    nav ul {
+        list-style: none;
+
+</pre>
+
+
+
+
+
+
+
+
+</body>
+</html>
