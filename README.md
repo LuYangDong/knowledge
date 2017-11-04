@@ -48,4 +48,5 @@ Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能
 <p>一般建立分支提交，然后再合并分支到主分支，再删除分支</p>
 <h3>14、移动端的自适应</h3>
 <h3>15、怎么将网址生成二维码?</h3>
-在线转换工具:草料二维码:https://cli.im/url;
+在线转换工具:草料二维码:https://cli.im/url;<br>
+如果希望定制二维码：http://www.liantu.com/<br>
