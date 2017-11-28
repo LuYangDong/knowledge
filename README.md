@@ -31,6 +31,7 @@ angular5.0
 Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能独立地使用，所以对你来说应该很容易学。由于jQuery使用普遍，我也将向你展示Velocity如何同它协作。</div>
 <a href="http://velocityjs.org/">文档</a>查看<a href="https://codepen.io/collection/tIjGb/">这里</a>的velocity 示例
 <p>4.Validate基于JQuery的表单验证</p>
+<p>5.wow.js动画插件</p>
 
 ## 9、关于Codeopen(you can get, not only share!)与jsFiddle<br>
 <a href="http://www.zhangxinxu.com/wordpress/2012/07/codepen-jsfiddle/">参考网址</a>
