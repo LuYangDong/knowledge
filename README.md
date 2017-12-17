@@ -51,3 +51,5 @@ Velocity模仿了jQuery的语法，可以完美地同jQuery协作，当然也能
 <h3>15、怎么将网址生成二维码?</h3>
 在线转换工具:草料二维码:https://cli.im/url;<br>
 如果希望定制二维码：http://www.liantu.com/<br>
+<h3>15、selectivizr.js</h3>
+selectivizr是一个JavaScript工具，使IE浏览器也可以支持CSS3伪类以及属性选择器<br>
