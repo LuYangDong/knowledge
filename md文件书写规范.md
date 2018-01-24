@@ -54,3 +54,5 @@ www.baidu.com<br>
 <div><p>怎么在MD文件里面插入图片?</p>
 <img src="https://github.com/LuYangDong/knowledge/blob/master/images/test.jpg" width="100px" height="100px">
  </div>
+<p>注意：</p>
+<p>MD文件无法设置样式</p>
